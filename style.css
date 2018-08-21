@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.apps {
+    line-height: 6px;
+    float: right;
+}
+
+.apps:hover .square {
+    background: black;
+}
+
+.square {
+    width: 4px; height: 4px;
+    background: #727272;
+    float: left;
+    margin-right: 2px; margin-bottom: 2px;
+}
+
+.navigation {
+    position: absolute;
+    top: 16px; right: 28px;
+}
+
+.navigation>* {
+    float: left;
+    padding: 8px 10px;
+}
+
+.sign-in {
+    background-color: #3385ec;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-left: 13px; padding-right: 13px;
+}
+.sign-in:hover {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* margin: 0; */
+}
+
+.footer-line {
+    background: #eee;
+    width: auto;
+    border-top: 1px solid #ddd;
+    padding: 14px 28px;
+    height: 13px;
+    color: #555;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-left a {
+    margin-right: 20px;
+}
+
+.footer-right a {
+    margin-left: 20px;
+}
+
+.search-field {
+    -webkit-appearance: none;
+    width: 540px;
+    margin: 30px;
+    padding: 8px 15px;
+    box-shadow: 0 1px 5px -1px #999;
+    border: 1px solid #eee;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    margin: 2px;
+    background: #eee;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
